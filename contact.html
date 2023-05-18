@@ -1,0 +1,122 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8">
+
+<link rel="stylesheet" href="styles.css">
+
+<title>Essa's Website</title>
+<link rel="shortcut icon" type="image/png"
+	  href="Images/EM.png">
+	<script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+	<link href="css/validate.css" type="text/css" rel="stylesheet" media="screen,projection" />
+	<style type="text/css">
+	body {
+    background-image: url();
+    background-color: #F4EFE6;
+}
+    </style>
+<script type="text/javascript" src="js/validate.js"></script>
+	
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$('form.required-form').simpleValidate({
+		  errorElement: 'em',
+		  ajaxRequest: true,
+		  completeCallback: function($el) {
+		  var formData = $el.serialize();
+		  }
+		});
+	});
+	</script>
+</head>
+
+<body>
+
+<div id ="outer">
+	</div>
+
+<div id="wrapper">
+	</div>
+
+<div id="logo"><a href="index.html"><img src="Images/EM.png" width="145" height="140" /></a> </div>
+<div id="icons">
+
+<ul>
+
+<li><a href="http://www.facebook.com"><img src="images/facebook_32.png" /></a></li>
+
+<li><a href="#"></a></li>
+
+<li><a href="https://twitter.com/?lang=en-gb"><img src="images/twitter_32.png" /></a></li>
+
+<li><a href="https://www.youtube.com/"><img src="images/youtube_32.png" /></a> </li>
+
+</ul>
+
+</div>
+
+<div id="topnav">
+
+<ul>
+
+<li><a href="index.html">HOME</a></li>
+
+<li><a href="about.html">ABOUT</a></li>
+
+<li><a href="organised.html">BEING ORGANISED</a></li>
+
+<li><a href="development.html">DEVELOPMENT PLAN</a></li>
+
+<li><a href="presantations.html">PRESENTATIONS</a></li>
+
+<li><a href="websites.html">WEBSITES</a></li>
+
+<li><a href="product.html">PRODUCT</a></li>
+
+<li><a href="contact.html">CONTACT</a></li>
+
+</ul>
+
+</div>
+
+<div id="banner"><img src="Images/it11.jpg" width="1200" height="266" /></div>
+
+
+
+
+<div id="content">
+	<div class="container">
+  <h1>Contact Us</h1>
+  <form target="_blank" action="https://formspree.io/f/mzboanjg" method="POST">
+    <div class="form-group">
+      <div class="form-row">
+        <div class="col">
+         <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+        </div>
+        <div class="col">
+          <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+  </form>
+</div>
+  
+ 
+</div>
+
+
+<div id="rightside">
+	</div>
+
+
+</body>
+
+</html>
